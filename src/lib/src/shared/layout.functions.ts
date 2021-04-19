@@ -48,7 +48,7 @@ export function buildLayout(jsf, widgetLibrary) {
       Object.keys(newNode)
         .filter(option => !inArray(option, [
           '_id', '$ref', 'arrayItem', 'arrayItemType', 'dataPointer', 'dataType',
-          'items', 'key', 'name', 'options', 'recursiveReference', 'type', 'widget'
+          'items', 'key', 'name', 'options', 'recursiveReference', 'type', 'widget', 'add'
         ]))
         .forEach(option => {
           newNode.options[option] = newNode[option];
