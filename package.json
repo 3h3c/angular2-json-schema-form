@@ -1,9 +1,9 @@
 {
   "name": "angular2-json-schema-form",
-  "version": "0.7.0-alpha.1",
+  "version": "1.0.0",
   "author": {
-    "name": "David Schnell-Davis",
-    "email": "dschnelldavis@gmail.com"
+    "name": "Christian Helbig",
+    "email": "christian@helbighof.de"
   },
   "description": "Angular JSON Schema Form builder",
   "keywords": [
