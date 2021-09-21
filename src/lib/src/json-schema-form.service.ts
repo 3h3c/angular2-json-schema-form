@@ -39,7 +39,7 @@ export class JsonSchemaFormService {
   AngularSchemaFormCompatibility = false;
   tpldata: any = {};
 
-  ajvOptions: any = { allErrors: true, jsonPointers: true, unknownFormats: 'ignore' };
+  ajvOptions: any = { allErrors: true, jsonPointers: true, unknownFormats: 'ignore', $data: true };
   ajv: any = new Ajv(this.ajvOptions); // AJV: Another JSON Schema Validator
   validateFormData: any = null; // Compiled AJV function to validate active form's schema
 
