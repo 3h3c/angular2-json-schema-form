@@ -53,7 +53,7 @@
     "ng-build": "ng build",
     "predeploy": "npm run ng-build",
     "deploy": "firebase deploy",
-    "install": "npm install . && npm run build"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "ajv": "^6.0.1",
